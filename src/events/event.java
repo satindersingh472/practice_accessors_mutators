@@ -1,8 +1,8 @@
 package events;
-import package.users.user;
+import users.user;
 
 public class event{
-    
+    public event user_one;
 
     public void comingToEvent(boolean user_attending_event){
       if(user_attending_event){
@@ -12,7 +12,7 @@ public class event{
     }
 
     public static void main(String[] args){
-        comingToEvent(users.user.satinder);
+        comingToEvent(user.satinder);
 
     }
 }
