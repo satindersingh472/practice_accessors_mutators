@@ -2,6 +2,7 @@ package users;
 
 public class user{
    
+    public static boolean satinder;
     String user_name;
     int age;
     boolean is_subscribed;
