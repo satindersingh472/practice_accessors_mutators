@@ -20,6 +20,9 @@ public class user{
         if(this.is_subscribed){
             System.out.println(" is subscribed");
         }
+        if (this.age < 18){
+            System.out.println("The user is not an adult");
+        }
     }
     public static void main(String[] args){
         user satinder = new user("satinder",28,true,"1994-11-15",true);
@@ -29,6 +32,7 @@ public class user{
         user amb = new user("amb", 5, false, "2018-01-16",true);
 
         satinder.comingToEvent();
+        nuhaar.comingToEvent();
 
 
     }
